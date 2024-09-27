@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="canvasContainer">
+            <canvas id="plot">
+            </canvas>
+        </div>
+        <form class="hidden" onSubmit="return false">
+            <table><tr>
+                <td><input id="param1" class="hidden" type="text" placeholder="x" value="-0.7"></input></td>
+                <td><input id="param2" class="hidden" type="text" placeholder="y" value="0"></input></td>
+                <td><input id="param3" class="hidden" type="text" placeholder="zoom" value="0.7"></input></td>
+                <td><input id="param4" class="hidden" type="text" placeholder="res" value="256"></input></td>
+            </tr><tr>
+            </tr></table>
+        </form>
+        <!--<pre id="events">
+        </pre>-->
+        <script src="script.js"></script>
+    </body>
+</html>
