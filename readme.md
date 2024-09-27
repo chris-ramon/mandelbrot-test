@@ -1,3 +1,7 @@
+![Screenshot](https://github.com/user-attachments/assets/123db962-7a29-4b48-ba1f-ca0c71ebab01)
+
+
+# Forked
 
 # Node.js-Mandelbrot
 - streams the data as soon as new divergent points are found
